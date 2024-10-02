@@ -25,10 +25,20 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
+        <a
+          href={demo.startsWith("http") ? demo : `https://${demo}`}
+          className={styles.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Demo
         </a>
-        <a href={source} className={styles.link}>
+        <a
+          href={source.startsWith("http") ? source : `https://${source}`}
+          className={styles.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Source
         </a>
       </div>

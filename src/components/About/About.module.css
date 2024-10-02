@@ -19,16 +19,6 @@
   text-transform: uppercase;
 }
 
-.content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.aboutImage {
-  width: 35%;
-}
-
 .aboutItems {
   color: var(--color-text);
   display: flex;
@@ -45,7 +35,7 @@
   padding: 25px;
   background-image: linear-gradient(
     90deg,
-    rgba(165, 215, 232, 0.42) 0%,
+    rgba(143, 74, 157, 0.42) 0%,
     rgba(255, 255, 255, 0) 100%
   );
   background-size: 0 100%;
@@ -76,11 +66,6 @@
   .content {
     flex-direction: column;
   }
-
-  .aboutImage {
-    display: none;
-  }
-
   .aboutItems {
     margin-top: 29px;
   }

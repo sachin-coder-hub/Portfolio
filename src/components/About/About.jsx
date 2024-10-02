@@ -7,45 +7,29 @@ export const About = () => {
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
-      <div className={styles.content}>
-        <img
-          src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        />
-        <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
-              <p>
-                I have designed multiple landing pages and have created design
-                systems as well
-              </p>
-            </div>
-          </li>
-        </ul>
-      </div>
+      <ul className={styles.aboutItems}>
+        <li className={styles.aboutItem}>
+          <p>
+            Experienced Frontend Developer with over 2.8 years of expertise in
+            building scalable and dynamic web applications using technologies
+            like React.js, Tailwind CSS, and AngularJS.
+          </p>
+        </li>
+        <li className={styles.aboutItem}>
+          <p>
+            Hands-on experience in building clones of popular platforms like
+            Swiggy, Netflix, and YouTube, leveraging live APIs, state management
+            with Redux, and modern frontend frameworks.
+          </p>
+        </li>
+        <li className={styles.aboutItem}>
+          <p>
+            Passionate about creating seamless user experiences and continually
+            expanding my expertise in full-stack development by learning Node.js
+            and backend concepts.
+          </p>
+        </li>
+      </ul>
     </section>
   );
 };
