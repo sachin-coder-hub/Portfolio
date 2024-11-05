@@ -9,8 +9,8 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hello, I'm Sachin</h1>
         <p className={styles.description}>
-          I'm a frontend developer with 2.5+ years of experience using React and
-          Tailwind. Reach out if you'd like to learn more!
+          I'm a frontend developer with 3 years of experience using React,
+          Javascript and Angular js. Reach out if you'd like to learn more!
         </p>
       </div>
       <div className={styles.topBlur} />

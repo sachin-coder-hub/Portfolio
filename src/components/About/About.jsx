@@ -10,7 +10,7 @@ export const About = () => {
       <ul className={styles.aboutItems}>
         <li className={styles.aboutItem}>
           <p>
-            Experienced Frontend Developer with over 2.8 years of expertise in
+            Experienced Frontend Developer with over 3 years of expertise in
             building scalable and dynamic web applications using technologies
             like React.js, Tailwind CSS, and AngularJS.
           </p>
