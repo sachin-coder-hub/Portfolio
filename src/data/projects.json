@@ -1,11 +1,11 @@
 [
   {
-    "title": "Netflix Clone",
+    "title": "Movie Streamer",
     "imageSrc": "projects/Netflix.png",
     "description": "Built an video streaming platform where you can browse popular and latest movies.",
     "skills": ["React", "Tailwind", "Firebase", "Redux"],
-    "demo": "netfix-sachind.netlify.app",
-    "source": "https://github.com/sachin-coder-hub/Netflix-Gpt7"
+    "demo": "movies-stream-psi.vercel.app",
+    "source": "https://github.com/sachin-coder-hub/MoviesStream"
   },
   {
     "title": "FastFood Delivery",
@@ -13,6 +13,6 @@
     "description": "Built an application where in you can browse your favourite food and order.",
     "skills": ["React", "Redux", "Tailwind", "Jest"],
     "demo": "fastfood-sachin.netlify.app",
-    "source": "https://github.com/sachin-coder-hub/Netflix-Gpt7"
+    "source": "https://github.com/sachin-coder-hub/SwiggyClone"
   }
 ]
