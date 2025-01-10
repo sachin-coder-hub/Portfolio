@@ -18,5 +18,17 @@
   {
     "title": "Tailwind CSS",
     "imageSrc": "skills/tailwind.png"
+  },
+  {
+    "title": "Node js",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Express",
+    "imageSrc": "skills/express.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
   }
 ]
