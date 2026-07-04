@@ -31,7 +31,7 @@ export const Experience = () => {
                       </span>
                     )}
                   </div>
-                  <p>{skill.title}</p>
+                  <p className={styles.skillLabel}>{skill.title}</p>
                 </div>
               );
             })}
