@@ -1,9 +1,30 @@
 [
   {
+    "role": "Associate Consultant",
+    "organisation": "Infosys",
+    "startDate": "Oct 2025",
+    "endDate": "Present",
+    "location": "Hubli, Karnataka, India",
+    "imageSrc": "history/Infosys.png",
+    "details": [
+      "Contributed to an enterprise portfolio dashboard using React for role-based tracking of application performance and reliability metrics.",
+      "Collaborated on Python-based backend APIs and Amazon DocumentDB to ingest and process metrics from multiple cloud and monitoring tools.",
+      "Built complex UI features including interactive trend graphs, advanced date filtering, and automated PDF/CSV report generation.",
+      "Supported automated AWS workflows that calculate and refresh application health scores across key operational pillars."
+    ]
+  },
+  {
     "role": "System Engineer",
     "organisation": "Tata Consultancy Services",
-    "startDate": "Feb, 2022",
-    "endDate": "Present",
-    "imageSrc": "history/Tcs.png"
+    "startDate": "Feb 2022",
+    "endDate": "Sep 2025",
+    "location": "Thane, Maharashtra, India",
+    "imageSrc": "history/Tcs.png",
+    "details": [
+      "Contributed to the development of a net banking platform, focusing on security enhancements and seamless user experience.",
+      "Collaborated with cross-functional teams to implement responsive design features and optimize application performance.",
+      "Integrated REST APIs to enable dynamic data interaction between frontend and backend systems.",
+      "Built scalable React components and improved maintainability across the application."
+    ]
   }
 ]
